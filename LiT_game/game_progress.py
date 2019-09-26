@@ -14,7 +14,8 @@ def game():
         player_HP = read_json('heroes')[player]['HP']  # Здоровье Игрока
         const_player_HP = player_HP  # Не изменяемое значение здоровтя игрока
         go = Action.your_choice(monster)  # Выбор монстра по уровню Игрока
-        print('{:^70}'.format(f'{player} {player_HP}HP VS {monster[0]} {monster_HP}HP'))
+        if go == "убить":
+            print('{:^70}'.format(f'{player} {player_HP}HP VS {monster[0]} {monster_HP}HP'))
         while True:
             if go == "убить":
                 participants = choice([monster, player])  # Рандомный выбор игрока либо монстра для получения урона
