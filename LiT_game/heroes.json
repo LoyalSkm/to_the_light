@@ -1,7 +1,17 @@
 {
       "Костя": {
-            "HP": 120,
-            "Level": 1,
-            "kills": 1
+            "HP": 170,
+            "Level": 2,
+            "kills": 3
+      },
+      "Rjcnz": {
+            "HP": 220,
+            "Level": 3,
+            "kills": 4
+      },
+      "убить": {
+            "HP": 220,
+            "Level": 3,
+            "kills": 4
       }
 }
