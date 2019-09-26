@@ -1,6 +1,5 @@
 from game_mechanism import Player, read_json, Monster, Action, LevelUp
 from random import choice, randint
-import sys
 
 def game():
     player = input("Привет странник, как тебя звать? ")
